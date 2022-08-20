@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "prometheus-sanic"
-version = "2.2.1"
+version = "3.0.0"
 description = "Exposes Prometheus monitoring metrics of Sanic apps."
 authors = ["Dan Kruchinin <dan.kruchinin@gmail.com>", "skar404 <skar404@gmail.com>"]
 license = "MIT"
@@ -30,8 +30,8 @@ from = {format = "poetry", path = "pyproject.toml"}
 to = {format = "setuppy", path = "setup.py"}
 
 [tool.poetry.dependencies]
-python = "^3.6 || ^3.7"
-sanic = ">=19.9.0"
+python = ">=3.7,<4.0"
+sanic = ">=22.0.0"
 prometheus-client = "^0.7.1"
 
 [tool.poetry.dev-dependencies]
