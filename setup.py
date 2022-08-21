@@ -23,7 +23,7 @@ setup(
     name='prometheus-sanic',
     version='1.0.0',
     description='Exposes Prometheus monitoring metrics of Sanic apps.',
-    python_requires='<4.0,>=3.6',
+    python_requires='<4.0,>=3.7',
     project_urls={'repository': 'https://github.com/skar404/prometheus-sanic'},
     author='Dan Kruchinin',
     author_email='dan.kruchinin@gmail.com',
